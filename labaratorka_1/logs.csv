@@ -1,0 +1,13 @@
+id,tg_nick,motion,api,date,time,api_answer
+0,EKartoshkin,start,NONE,2025-09-14,00:23:45,NONE
+1,EKartoshkin,send_ip,https://api.ipify.org?format=json,2025-09-14,00:23:50,success
+2,EKartoshkin,send_cats,https://catfact.ninja/fact,2025-09-14,00:23:52,success
+3,EKartoshkin,send_universities,http://universities.hipolabs.com/search?country=Belarus,2025-09-14,00:23:52,success
+4,EKartoshkin,Keyboard typing,NONE,2025-09-14,00:23:53,NONE
+5,ded_discret,send_ip,https://api.ipify.org?format=json,2025-09-14,00:24:11,success
+6,ded_discret,send_cats,https://catfact.ninja/fact,2025-09-14,00:24:11,success
+7,ded_discret,send_universities,http://universities.hipolabs.com/search?country=Belarus,2025-09-14,00:24:11,success
+8,ded_discret,Keyboard typing,NONE,2025-09-14,00:25:46,NONE
+9,ded_discret,send_cats,https://catfact.ninja/fact,2025-09-14,00:26:00,success
+10,ded_discret,send_universities,http://universities.hipolabs.com/search?country=Belarus,2025-09-14,00:26:02,success
+11,ded_discret,Keyboard typing,NONE,2025-09-14,00:26:05,NONE
