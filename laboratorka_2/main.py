@@ -7,6 +7,8 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 URL = "https://belavia.by/booking/#/"
+FIRST_SUGGESTION_XPATH = "//div[contains(@class, 'options')]//div[contains(@class, 'option')][1]"
+FIRST_ARRIVAL_SUGGESTION_XPATH = "//div[contains(@class, 'autocomplete')][2]//div[contains(@class, 'option')][1]"
 
 def setup_driver():
     options = Options()
@@ -14,31 +16,60 @@ def setup_driver():
     return webdriver.Chrome(options=options)
 
 def input_route_data(driver, CITY_TO, DATE):
-    # Ввод города отправления
+    # 1. Ввод города отправления
     city_from = WebDriverWait(driver, 15).until(
         EC.presence_of_element_located((By.XPATH, "//input[contains(@class, 'input_departure')]"))
     )
     city_from.clear()
     city_from.send_keys("Минск")
     time.sleep(1)
-    city_from.send_keys(Keys.ARROW_DOWN)
-    city_from.send_keys(Keys.ENTER)
+    
+    # Новый, надежный способ выбора: ждем и кликаем по первой подсказке
+    try:
+        suggestion_from = WebDriverWait(driver, 5).until(
+            EC.element_to_be_clickable((By.XPATH, FIRST_SUGGESTION_XPATH))
+        )
+        suggestion_from.click()
+    except Exception as e:
+        print(f"Ошибка при выборе города отправления: {e}")
+        # Если клик не сработал, можно попробовать нажать Enter как запасной вариант
+        city_from.send_keys(Keys.ENTER) 
+        
     time.sleep(1)
+
+
+
 
     # Ввод города назначения
-    city_to = WebDriverWait(driver, 15).until(
-        EC.presence_of_element_located((By.XPATH, "//input[contains(@class, 'input_arrival')]"))
+    city_to_input = WebDriverWait(driver, 15).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "input.input_arrival-PS34V"))
     )
-    city_to.clear()
-    city_to.send_keys(CITY_TO)
-    time.sleep(1)
-    city_to.send_keys(Keys.ARROW_DOWN)
-    city_to.send_keys(Keys.ENTER)
-    time.sleep(1)
+    city_to_input.clear()
+    city_to_input.send_keys(CITY_TO)
+    time.sleep(1.5)
 
-    # Сброс фокуса, чтобы закрыть выпадающий список
-    driver.execute_script("arguments[0].blur();", city_to)
-    time.sleep(1)
+    try:
+        # Ждём появления всех подсказок
+        suggestions = WebDriverWait(driver, 5).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.options-2a1tb div.option-cYLPM"))
+        )
+
+        for suggestion in suggestions:
+            label = suggestion.find_element(By.CSS_SELECTOR, "span.option__label-ZbGVd").text.strip()
+            if CITY_TO.lower() in label.lower():
+                driver.execute_script("arguments[0].click();", suggestion)
+                print(f"✅ Город назначения '{label}' выбран.")
+                return
+        print(f"⚠️ Подсказка с городом '{CITY_TO}' не найдена. Нажимаем Enter.")
+        city_to_input.send_keys(Keys.ENTER)
+
+    except Exception as e:
+        print(f"❌ Ошибка при выборе города назначения: {e}")
+        city_to_input.send_keys(Keys.ENTER)
+
+
+
+
 
     # Выбор даты вылета
     departure_date_field = WebDriverWait(driver, 15).until(
