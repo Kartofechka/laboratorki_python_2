@@ -1,0 +1,184 @@
+2025-10-30 12:13:13,209 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:13:13,209 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: admin 
+2025-10-30 12:13:17,589 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:13:17,589 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: admin 
+2025-10-30 12:13:22,466 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:13:22,467 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: admin 
+2025-10-30 12:13:33,683 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:13:33,683 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: admin 
+2025-10-30 12:15:35,196 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:15:35,197 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: admin 
+2025-10-30 12:15:47,200 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:15:47,200 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: admin session_id: 39e067c5-0397-4e05-98b0-ca35f91895b2
+2025-10-30 12:15:47,212 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /home/admin
+2025-10-30 12:15:47,212 - INFO - Админ admin перешел в main
+2025-10-30 12:15:47,287 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /favicon.ico
+2025-10-30 12:15:47,287 - WARNING - [404] пользователь: admin адреса: /favicon.ico
+2025-10-30 12:15:49,672 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /register
+2025-10-30 12:15:49,672 - INFO - Переход на страницу регистрации: admin | 39e067c5-0397-4e05-98b0-ca35f91895b2
+2025-10-30 12:15:59,862 - INFO - [РЕГИСТРАЦИЯ НОВОГО ХОМЯЧКА] новый пользователь: hamster
+2025-10-30 12:16:01,877 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /logout
+2025-10-30 12:16:01,877 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: admin session_id: 39e067c5-0397-4e05-98b0-ca35f91895b2
+2025-10-30 12:16:08,707 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:16:08,715 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: hamster 
+2025-10-30 12:16:16,456 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:16:16,456 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: hamster 
+2025-10-30 12:16:48,967 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:16:48,967 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: admin session_id: fb8fb41c-6eb4-45d1-8e06-2c272afd6eed
+2025-10-30 12:16:48,973 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /home/admin
+2025-10-30 12:16:48,973 - INFO - Админ admin перешел в main
+2025-10-30 12:16:50,873 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /register
+2025-10-30 12:16:50,873 - INFO - Переход на страницу регистрации: admin | fb8fb41c-6eb4-45d1-8e06-2c272afd6eed
+2025-10-30 12:17:02,043 - INFO - [РЕГИСТРАЦИЯ НОВОГО ХОМЯЧКА] новый пользователь: hamster
+2025-10-30 12:17:08,524 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /logout
+2025-10-30 12:17:08,524 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: admin session_id: fb8fb41c-6eb4-45d1-8e06-2c272afd6eed
+2025-10-30 12:17:14,209 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:17:14,210 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: hamster session_id: 349eb6e6-49e6-42e3-be8a-5c42afc92042
+2025-10-30 12:17:14,220 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:17:14,220 - INFO - Хомячок: hamster | 349eb6e6-49e6-42e3-be8a-5c42afc92042
+2025-10-30 12:17:16,442 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /logout
+2025-10-30 12:17:16,442 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: hamster session_id: 349eb6e6-49e6-42e3-be8a-5c42afc92042
+2025-10-30 12:18:04,207 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /logout
+2025-10-30 12:18:04,207 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: hamster session_id: 349eb6e6-49e6-42e3-be8a-5c42afc92042
+2025-10-30 12:18:10,112 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:18:10,113 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: hamster session_id: ad47ff8e-7065-44d4-b8ab-9bc4257ffcaf
+2025-10-30 12:18:10,119 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:18:10,119 - INFO - Хомячок: hamster | ad47ff8e-7065-44d4-b8ab-9bc4257ffcaf
+2025-10-30 12:18:11,051 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /logout
+2025-10-30 12:18:11,051 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: hamster session_id: ad47ff8e-7065-44d4-b8ab-9bc4257ffcaf
+2025-10-30 12:18:24,832 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:18:24,832 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: hamster session_id: f19a4ea1-cb1a-4eff-a2fb-65c0dcf1b9f5
+2025-10-30 12:18:24,839 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:18:24,839 - INFO - Хомячок: hamster | f19a4ea1-cb1a-4eff-a2fb-65c0dcf1b9f5
+2025-10-30 12:18:24,863 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /favicon.ico
+2025-10-30 12:18:24,863 - WARNING - [404] пользователь: hamster адреса: /favicon.ico
+2025-10-30 12:18:26,738 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /logout
+2025-10-30 12:18:26,738 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: hamster session_id: f19a4ea1-cb1a-4eff-a2fb-65c0dcf1b9f5
+2025-10-30 12:19:16,967 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:19:16,968 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: hamster session_id: fc1f9667-b0fc-4161-a099-51128c8a1c6f
+2025-10-30 12:19:16,974 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:19:16,974 - INFO - Хомячок: hamster | fc1f9667-b0fc-4161-a099-51128c8a1c6f
+2025-10-30 12:19:17,068 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /favicon.ico
+2025-10-30 12:19:17,068 - WARNING - [404] пользователь: hamster адреса: /favicon.ico
+2025-10-30 12:19:21,650 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /logout
+2025-10-30 12:19:21,650 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: hamster session_id: fc1f9667-b0fc-4161-a099-51128c8a1c6f
+2025-10-30 12:19:52,461 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:19:52,462 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: hamster session_id: ea3ecfe5-42c1-4d08-821e-e19a43387c05
+2025-10-30 12:19:52,468 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:19:52,468 - INFO - Хомячок: hamster | ea3ecfe5-42c1-4d08-821e-e19a43387c05
+2025-10-30 12:19:54,183 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:19:54,183 - WARNING - [404] пользователь: hamster адреса: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:22:06,531 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:22:06,531 - INFO - Хомячок: hamster | ea3ecfe5-42c1-4d08-821e-e19a43387c05
+2025-10-30 12:22:06,553 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:22:06,553 - WARNING - [404] пользователь: hamster адреса: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:24:57,630 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:24:57,630 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: hamster 
+2025-10-30 12:25:04,944 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:25:04,944 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: hamster session_id: 9f68be47-ebfe-45b3-8eb7-3a6a38f33acb
+2025-10-30 12:25:04,951 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:25:04,951 - INFO - Хомячок: hamster | 9f68be47-ebfe-45b3-8eb7-3a6a38f33acb
+2025-10-30 12:25:05,008 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /favicon.ico
+2025-10-30 12:25:05,008 - WARNING - [404] пользователь: hamster адреса: /favicon.ico
+2025-10-30 12:25:07,755 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:25:07,755 - WARNING - [404] пользователь: hamster адреса: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:25:54,770 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:25:54,770 - WARNING - [404] пользователь: hamster адреса: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:27:32,257 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /logout
+2025-10-30 12:27:32,257 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: hamster session_id: 9f68be47-ebfe-45b3-8eb7-3a6a38f33acb
+2025-10-30 12:28:45,494 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:28:45,495 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: hamster session_id: 17f6135f-c6c2-4b56-b8ba-30932450275a
+2025-10-30 12:28:45,502 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:28:45,502 - INFO - Хомячок: hamster | 17f6135f-c6c2-4b56-b8ba-30932450275a
+2025-10-30 12:28:45,574 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:28:45,574 - WARNING - [404] пользователь: hamster адреса: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:30:03,233 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /logout
+2025-10-30 12:30:03,233 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: hamster session_id: 17f6135f-c6c2-4b56-b8ba-30932450275a
+2025-10-30 12:31:06,630 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:31:06,631 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: hamster session_id: 23501925-e8fd-44a9-b622-c48bc1a3929e
+2025-10-30 12:31:06,638 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:31:06,638 - INFO - Хомячок: hamster | 23501925-e8fd-44a9-b622-c48bc1a3929e
+2025-10-30 12:31:06,716 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /favicon.ico
+2025-10-30 12:31:06,717 - WARNING - [404] пользователь: hamster адреса: /favicon.ico
+2025-10-30 12:31:12,410 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:31:12,410 - WARNING - [404] пользователь: hamster адреса: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:31:21,288 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:32:23,675 - INFO - [ПОПЫТКА ВХОДА] пользователь: hamster ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-10-30 12:32:23,676 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: hamster session_id: 5b2081ce-039d-48d1-86a7-befc5d8ec004
+2025-10-30 12:32:23,684 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /home/hamster
+2025-10-30 12:32:23,684 - INFO - Хомячок: hamster | 5b2081ce-039d-48d1-86a7-befc5d8ec004
+2025-10-30 12:32:23,743 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:32:23,743 - WARNING - [404] пользователь: hamster адреса: /.well-known/appspecific/com.chrome.devtools.json
+2025-10-30 12:34:06,243 - INFO - [ПЕРЕХОД] пользователь: hamster адрес: /logout
+2025-10-30 12:34:06,243 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: hamster session_id: 5b2081ce-039d-48d1-86a7-befc5d8ec004
+2025-11-01 11:26:40,842 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+2025-11-01 11:26:40,842 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: admin session_id: a7ac9094-4e9a-4abb-9e7d-55d8a99deab7
+2025-11-01 11:26:40,857 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /home/admin
+2025-11-01 11:26:40,857 - INFO - Админ admin перешел в main
+2025-11-01 11:26:40,953 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /favicon.ico
+2025-11-01 11:26:40,953 - WARNING - [404] пользователь: admin адреса: /favicon.ico
+2025-11-01 11:26:45,593 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /register
+2025-11-01 11:26:45,593 - INFO - Переход на страницу регистрации: admin | a7ac9094-4e9a-4abb-9e7d-55d8a99deab7
+2025-11-01 11:26:49,656 - INFO - [РЕГИСТРАЦИЯ НОВОГО ХОМЯЧКА] новый пользователь: fg
+2025-11-01 11:26:52,125 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /logout
+2025-11-01 11:26:52,125 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: admin session_id: a7ac9094-4e9a-4abb-9e7d-55d8a99deab7
+2025-11-11 15:17:32,243 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 15:17:32,244 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: admin 
+2025-11-11 15:17:36,783 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 15:17:36,784 - WARNING - [ОШИБКА АВТОРИЗАЦИИ] неверный пароль, пользователь: admin 
+2025-11-11 15:17:42,089 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 15:17:42,089 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: admin session_id: be1830dc-53ac-43e2-950a-7f7017366cb7
+2025-11-11 15:17:42,101 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /home/admin
+2025-11-11 15:17:42,101 - INFO - Админ admin перешел в main
+2025-11-11 15:17:42,149 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /favicon.ico
+2025-11-11 15:17:42,149 - WARNING - [404] пользователь: admin адреса: /favicon.ico
+2025-11-11 15:17:46,999 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /register
+2025-11-11 15:17:46,999 - INFO - Переход на страницу регистрации: admin | be1830dc-53ac-43e2-950a-7f7017366cb7
+2025-11-11 15:17:57,585 - INFO - [РЕГИСТРАЦИЯ НОВОГО ХОМЯЧКА] новый пользователь: user1
+2025-11-11 15:18:01,445 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /logout
+2025-11-11 15:18:01,445 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: admin session_id: be1830dc-53ac-43e2-950a-7f7017366cb7
+2025-11-11 15:25:42,279 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 15:25:42,279 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: admin session_id: 45faa944-5cb6-431c-baa0-17df89516ce7
+2025-11-11 15:25:42,285 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /home/admin
+2025-11-11 15:25:42,285 - INFO - Админ admin перешел в main
+2025-11-11 15:25:42,340 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /favicon.ico
+2025-11-11 15:25:42,340 - WARNING - [404] пользователь: admin адреса: /favicon.ico
+2025-11-11 15:25:47,118 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 15:25:47,118 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: admin session_id: 74c12ae7-97cf-4f93-b50e-d40b5b0e968d
+2025-11-11 15:25:47,125 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /home/admin
+2025-11-11 15:25:47,125 - INFO - Админ admin перешел в main
+2025-11-11 15:25:47,171 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /favicon.ico
+2025-11-11 15:25:47,171 - WARNING - [404] пользователь: admin адреса: /favicon.ico
+2025-11-11 15:25:48,177 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /logout
+2025-11-11 15:25:48,177 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: admin session_id: 74c12ae7-97cf-4f93-b50e-d40b5b0e968d
+2025-11-11 15:25:52,541 - INFO - [ПОПЫТКА ВХОДА] пользователь: user1 ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 15:25:52,541 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: user1 session_id: 7b21f521-01dc-4a9d-8cdb-432329a2249e
+2025-11-11 15:25:52,551 - INFO - [ПЕРЕХОД] пользователь: user1 адрес: /home/user1
+2025-11-11 15:25:52,551 - INFO - Хомячок: user1 | 7b21f521-01dc-4a9d-8cdb-432329a2249e
+2025-11-11 15:25:52,584 - INFO - [ПЕРЕХОД] пользователь: user1 адрес: /favicon.ico
+2025-11-11 15:25:52,584 - WARNING - [404] пользователь: user1 адреса: /favicon.ico
+2025-11-11 15:25:53,591 - INFO - [ПЕРЕХОД] пользователь: user1 адрес: /register
+2025-11-11 15:25:53,591 - WARNING - [ДОСТУП ЗАКРЫТ] пользователь user1 пытался перейти на /register
+2025-11-11 15:25:57,620 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 15:25:57,620 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: admin session_id: b247841c-db43-43b1-8d60-326f272de101
+2025-11-11 15:25:57,627 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /home/admin
+2025-11-11 15:25:57,627 - INFO - Админ admin перешел в main
+2025-11-11 15:25:57,673 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /favicon.ico
+2025-11-11 15:25:57,673 - WARNING - [404] пользователь: admin адреса: /favicon.ico
+2025-11-11 15:25:58,680 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /register
+2025-11-11 15:25:58,680 - INFO - Переход на страницу регистрации: admin | b247841c-db43-43b1-8d60-326f272de101
+2025-11-11 15:26:02,725 - INFO - [ПОПЫТКА ВХОДА] пользователь: admin ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 15:26:02,725 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: admin session_id: d5cada0d-d5f2-4c15-96d1-dd36ca123b8a
+2025-11-11 15:26:02,732 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /home/admin
+2025-11-11 15:26:02,732 - INFO - Админ admin перешел в main
+2025-11-11 15:26:02,780 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /favicon.ico
+2025-11-11 15:26:02,780 - WARNING - [404] пользователь: admin адреса: /favicon.ico
+2025-11-11 15:26:03,788 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /register
+2025-11-11 15:26:03,788 - INFO - Переход на страницу регистрации: admin | d5cada0d-d5f2-4c15-96d1-dd36ca123b8a
+2025-11-11 15:26:04,262 - INFO - [РЕГИСТРАЦИЯ НОВОГО ХОМЯЧКА] новый пользователь: user_1762863964
+2025-11-11 15:26:04,785 - INFO - [ПЕРЕХОД] пользователь: admin адрес: /logout
+2025-11-11 15:26:04,785 - INFO - [ЗАВЕРШЕНИЕ СЕССИИ] пользователь: admin session_id: d5cada0d-d5f2-4c15-96d1-dd36ca123b8a
+2025-11-11 15:26:05,262 - INFO - [ПОПЫТКА ВХОДА] пользователь: user_1762863964 ip: 127.0.0.1 параметры системы: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+2025-11-11 15:26:05,263 - INFO - [УСПЕШНЫЙ ВХОД] пользователь: user_1762863964 session_id: fe9aea75-886f-4fba-8380-91eca44aed20
+2025-11-11 15:26:05,272 - INFO - [ПЕРЕХОД] пользователь: user_1762863964 адрес: /home/user_1762863964
+2025-11-11 15:26:05,272 - INFO - Хомячок: user_1762863964 | fe9aea75-886f-4fba-8380-91eca44aed20
