@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <title>Анкета</title>
+</head>
+<body>
+  <div class="choices" id="choices">
+    <h1 id="choice_name"></h1>
+    {% if error %}
+      <p class="error" style="color: rgb(255, 0, 0);">{{ error }}</p>
+    {% endif %}
+    {% if message %}
+      <p class="message" style="color: rgb(255, 123, 0);">{{ message }}</p>
+    {% endif %}
+
+    <div class="question">
+      <h2>Вопрос 1</h2>
+      <h3>Ваше имя:</h3>
+      <input id="first_answer" type="text" placeholder="Имя">
+    </div>
+
+    <div class="question">
+      <h2>Вопрос 2</h2>
+      <h3>Ваш возраст:</h3>
+      <input id="second_answer" type="number" placeholder="Возраст">
+    </div>
+
+    <div class="question">
+      <h2>Вопрос 3</h2>
+      <h3>Каким котиком вы сами себя видите:</h3>
+      <div id="third_question" class="radio_answer">
+        <label><input type="radio" name="third_answer" value="1"> Дорогой и породистый, мне нужен уход и эксклюзивная еда для элитных кошек</label>
+        <label><input type="radio" name="third_answer" value="2"> Дворовый хитромордый, гуляю где хочу, с девчонками/мальчишками флиртую</label>
+        <label><input type="radio" name="third_answer" value="3"> Элегантный и грациозный, породы не помню, но красивый однозначно</label>
+        <label><input type="radio" name="third_answer" value="3"> Домашний полосатый и добрый</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h2>Вопрос 4</h2>
+      <h3>Выберите любимое занятие:</h3>
+      <select id="four_question" name="four_question">
+        <option value="">-- Выберите --</option>
+        <option value="four_answer">Греться на солнышке, жмуриться и потягиваться</option>
+        <option value="four_answer">Бегать за мышами, настоящими и игрушечными</option>
+        <option value="four_answer">Высматривать котлету, которая может упасть со стола</option>
+        <option value="four_answer">Сладко спать на кровати человеков</option>
+      </select>
+    </div>
+
+    <div class="question">
+      <h2>Вопрос 5</h2>
+      <h3>Ваш день рождения:</h3>
+      <input id="five_answer" type="date" placeholder="Дата">
+    </div>
+
+    <div class="question">
+      <h2>Вопрос 6</h2>
+      <h3>Ваш любимый язык</h3>
+      <div class="checkbox_group">
+        <label><input type="checkbox" name="six_answer" value="Русский"> Русский</label>
+        <label><input type="checkbox" name="six_answer" value="Белорусский"> Белорусский</label>
+        <label><input type="checkbox" name="six_answer" value="Испанский"> Испанский</label>
+        <label><input type="checkbox" name="six_answer" value="Арабский"> Арабский</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h2>Вопрос 7</h2>
+      <h3>Как перевезти воду в дуршлаге:</h3>
+      <textarea id="seven_answer" rows="6" cols="50" type="text" placeholder="Ответ"></textarea>
+    </div>
+
+    <div class="question">
+      <h2>Вопрос 8</h2>
+      <h3>Который час:</h3>
+      <input id="eight_answer" type="time" placeholder="Ответ">
+    </div>
+
+    <div class="question">
+      <h2>Вопрос 9</h2>
+      <h3>Ваш любимый цвет:</h3>
+      <input id="nine_answer" type="color">
+    </div>
+
+    <div class="question">
+      <h2>Вопрос 10</h2>
+      <h3>Ваш номер телефона:</h3>
+      <input id="ten_answer" type="range" min="290000000" max="449999999" step="1" value="0">
+      <span id="tel_value">0</span>
+    </div>
+
+    <button id="send_btn" type="button">Отправить</button>
+  </div>
+
+  <div class="result" id="result">
+    <h1 id="result_name"></h1>
+    <form method="get" action="/register">
+      <button id="to_register_btn" type="submit">Зарегистрировать нового хомячка</button>
+    </form>
+    <form method="get" action="/logout">
+      <button id="to_login_btn" type="submit">Завершить сессию</button>
+    </form>
+  </div>
+
+  <script src="../static/script.js"></script>
+</body>
+</html>

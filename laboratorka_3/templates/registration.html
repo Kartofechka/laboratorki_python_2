@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css">
+  <title>Регистрация</title>
+</head>
+<body>
+
+  <div class="user_data" id="user_data">
+    <form class="inputs" method="post" action="/register">
+      <h2>Регистрицая пользователя</h2>
+        {% if error %}
+          <p class="error" style="color: rgb(255, 0, 0);">{{ error }}</p>
+        {% endif %}
+        {% if message %}
+          <p class="message" style="color: rgb(255, 123, 0);">{{ message }}</p>
+        {% endif %}
+      <div class="input_with_icon">
+        <img src="../assets/user.jpg" alt="иконка">
+        <input id="reg_name" name="reg_name" type="text" placeholder="Имя" required>
+      </div>
+      <div class="input_with_icon">
+        <img src="../assets/password.png" alt="иконка">
+        <input id="reg_password" name="reg_password" type="password" placeholder="Пароль" required>
+      </div>
+      <button id="register_btn" type="submit">Зарегистрировать</button>
+    </form>
+  </div>
+
+  <script src="../static/script.js"></script>
+</body>
+</html>
