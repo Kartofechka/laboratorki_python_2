@@ -157,7 +157,6 @@ class App:
             widget.delete(1, "end")
 
 
-
     def run(self):
         self._main_window.mainloop()
 
