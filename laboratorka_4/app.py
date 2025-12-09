@@ -35,6 +35,7 @@ class App:
 
 
     def create_interface(self):
+        self.clear_window()
         menu_frame = ctk.CTkFrame(self._main_window, fg_color="transparent")
         menu_frame.place(relx=0.5, rely=0.5, anchor="center")
 
@@ -139,6 +140,16 @@ class App:
             command=self.check_solution
         )
         check_button.grid(row=9, column=0, columnspan=9, pady=10)
+
+        go_to_menu = ctk.CTkButton(
+            menu_frame,
+            text="Вернуться в меню",
+            width=80,
+            height=30,
+            fg_color="transparent",
+            command=self.create_interface
+        )
+        go_to_menu.grid(row=10, column=0, columnspan=9, pady=10)
 
 
     def filter(self, event):
